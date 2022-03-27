@@ -1,0 +1,91 @@
+body {
+    background-image: url(https://fondosmil.com/fondo/18820.jpg);
+    background-image: url(https://www.xtrafondos.com/descargar.php?id=5859&resolucion=2560x1440);
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+}
+
+strong, p, button, form, input {
+    margin-left: 10px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor_base, .contenedor_altura, label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.botones{
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #ffffff;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.botones:hover {
+    background-color: #a1d3f3 !important;
+}
+
+input{
+    height: 50px;
+}
+
+#barraError{
+    box-sizing: border-box;
+    background-color: rgb(196, 29, 29);
+    border-radius: 5px;
+    padding: 10px;
+    width: 670px;
+}
+
+.resultados{
+    font-size: 4rem;
+    color: #000;
+    background-color: #a1d3f3;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.transparente{
+    opacity: 0;
+}
+
+.visible{
+    opacity: 1;
+}
+
+.figurasGeometricas {
+    position: absolute;
+}
+
+.iconTriangulo {
+    width: 100px;
+    left: 20px;
+    top: 21px;
+}
+
+.iconRectangulo {
+    width: 140px;
+    left: 0px;
+    top: 0px;
+}

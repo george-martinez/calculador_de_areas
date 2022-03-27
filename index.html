@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./assets/logocubito.png" sizes="16x16">
+    <title>Calculadora de Areas</title>
+</head>
+<body>
+    <form action="">
+        <div class="contenedor_base">
+            <label for="base">Ingresa la base: </label>
+            <input type="text" placeholder="BASE" id="base" autocomplete="off"> 
+        </div>
+        <div class="contenedor_altura">        
+            <label for="altura">Ingresa la altura: </label>
+            <input type="text" placeholder="ALTURA" id="altura" autocomplete="off"> 
+        </div>
+    </form>
+    
+    <button id="rectangulo" class="botones">RECTANGULO</button>
+    <button id="triangulo" class="botones">TRIANGULO</button>
+    <p id="barraError" class="transparente"></p>
+    <p class="resultados">El area es: <strong id="areaTotal" class="resultados">0</strong></p>
+    <img src="./assets/areacuadrado.png" alt="" class="transparente figurasGeometricas iconRectangulo">
+    <img src="./assets/areatriangulo.png" alt="" class="transparente figurasGeometricas iconTriangulo">
+
+    <script src="./code.js"></script>
+</body>
+</html>
